@@ -1,0 +1,51 @@
+/*style.css*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+}
+
+.card {
+  /* Center element */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 320px;
+  height: 499px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.card-title {
+  width: 256px;
+  padding-left: 16px;
+  margin-left: 16px;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 120%;
+  color: #1f314f;
+}
+
+.card-content {
+  /* change to rem */
+  width: 256px;
+  margin-left: 16px;
+  padding-left: 16px;
+  /* add link */
+  font-family: "Outfit";
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 140%;
+  letter-spacing: 0.29px;
+  color: #68778d;
+}

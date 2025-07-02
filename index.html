@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
     />
+    <link rel="stylesheet" href="index.css" />
 
     <title>Frontend Mentor | QR code component</title>
 
@@ -23,53 +24,15 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
-
-      body {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        background-color: #d5e1ef;
-      }
-      .card {
-        width: 320px;
-        height: 499px;
-        background-color: white;
-        border-radius: 20px;
-        text-align: center;
-        align-content: center;
-      }
-
-      .card-title {
-        width: 256px;
-        padding-left: 16px;
-        margin-left: 16px;
-        font-family: "Outfit";
-        font-size: 22px;
-        font-weight: bold;
-        text-align: center;
-        line-height: 120%;
-        color: #1f314f;
-      }
-
-      .card-content {
-        width: 256px;
-        margin-left: 16px;
-        padding-left: 16px;
-        font-family: "Outfit";
-        font-size: 15px;
-        font-weight: 400;
-        text-align: center;
-        line-height: 140%;
-        letter-spacing: 0.29px;
-        color: #68778d;
-      }
     </style>
   </head>
+
   <body>
+    <!-- Use semantic HTML also -->
+    <!-- Change convention to BEM -->
     <div class="card">
       <img
-        src="images/image-qr-code.png"
+        src="./images/image-qr-code.png"
         alt="Qr Code"
         width="288"
         height="288"
